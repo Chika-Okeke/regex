@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/signup.css">
+   
+    <title> Sign up Form</title>
+</head>
+<body>
+   <div class="wrapper">
+
+      <div class="logo-container">
+         <img src="logo.jpg" alt="">
+      <div class="text-container">
+         <h2>  Sign up Form</h2> 
+         <p>Fill out the form to apply for the training courses. You can consider your application accepted after you receive a confirmation email </p>
+      </div>
+      </div>
+      <!--Form-->
+      <form action="post" name="Registration Form" id="Registration Form">
+         <div class="form-row">  
+            <input type="text" placeholder="First Name" id="firstName" name="firstName" > 
+            <input type= "text" placeholder="Last Name" id="lastName" name="lastName">
+         </div>
+         
+         <div class="form-row2 form-row">
+            <input type="email" placeholder="Email" id="email" name="email"> 
+            <input type="text" placeholder="Phone Number" id="phone" name="phone">
+         </div>
+        
+            <input type="submit" value="Sign Up" >
+         </div>
+      </form>
+</div>
+   <script>
+ let firstName = "Chika"
+ let lastName = "Okeke"
+
+ 
+
+ localStorage.setItem("name", firstName)
+   </script>
+   <!-- <script src="preview.js"></script> -->
+
+</body>
+</html> 
